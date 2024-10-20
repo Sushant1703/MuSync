@@ -1,0 +1,75 @@
+/* General Body Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000000 40%, #004d00 40%, #003300 60%); /* Gradient mix of black and green */
+    color: #fcfcfca4; /* Filthy green text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styles */
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 4em; /* Increased font size for MuSync */
+    font-weight: bold; /* Bold text */
+    color: #e7f6e7; /* Darker green color for MuSync */
+    margin-bottom: 10px;
+}
+
+/* Tagline Styles */
+#tagline {
+    font-family: 'Noto Serif', serif;
+    font-size: 2em; /* Increased font size for the tagline */
+    color: #1f8b1f; /* Dark green color for tagline */
+}
+
+/* Input and Button Styles */
+input[type="file"], 
+button {
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Choose Audio File Input Styles */
+input[type="file"] {
+    background-color: rgba(10, 86, 10, 0.3); /* Light green background for file input */
+}
+
+button {
+    background-color: #0d4785; /* Shiny blue color for buttons */
+    color: rgb(226, 225, 225); /* White text */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #073261; /* Darker blue on hover */
+}
+
+/* Audio Player Styles */
+#audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Team Name Styles */
+#teamName {
+    font-size: 1.5em; /* Smaller font size for team name */
+    color: #0b830b; /* Dark green color for team name */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Funky font style */
+    margin-top: 30px; /* Space above team name */
+}
+
+/* Additional Styling for Inputs and Audio Element */
+audio {
+   border-radius: 5px; /* Rounded corners for audio player */
+}

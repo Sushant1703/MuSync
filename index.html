@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuSync</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>MuSync</h1>
+    <p id="tagline">Rhythm and Rhyme, Together in Time!</p>
+
+    <input type="file" id="upload" accept="audio/*" title="Upload Audio File" />
+    <audio id="audio" controls>
+        <source id="audioSource" src="" type="">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <button id="syncButton">Sync</button>
+
+    <!-- Team Name Section -->
+    <div id="teamName">BubblebuttCorp</div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
