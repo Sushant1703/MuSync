@@ -46,6 +46,8 @@ npm install
 node server.js
 ```
 4. Open your web browser and navigate to http://localhost:3000 to use MuSync.
+   
+5. To add othere devices, open your web browser and navigate to http://<ipaddressofhost>:3000 to use MuSync together.
 
 
 **Usage**
