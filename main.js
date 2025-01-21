@@ -31,7 +31,6 @@ socket.on('sync', (data) => {
     }
 });
 
-// Reset time when audio ends
 audio.addEventListener('ended', () => {
-    socket.emit('sync', { time: 0 }); // Notify others that audio has ended
+    socket.emit('sync', { time: 0 }); 
 });
